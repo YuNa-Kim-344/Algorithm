@@ -11,6 +11,6 @@ def solution(s):
             
         answer += new_word + " "
     
-    answer = answer.rstrip()
+    answer = answer[:-1]
     
     return answer

@@ -6,8 +6,8 @@ def solution(elements):
     circle = elements + elements
     
     for i in range(length):
-        for j in range(length):
-            list.append(sum(circle[i:j+i]))
+        for j in range(1, length + 1):
+            list.append(sum(circle[i:i+j]))
             
     answer = len(set(list))
     

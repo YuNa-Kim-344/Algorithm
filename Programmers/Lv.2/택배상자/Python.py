@@ -11,7 +11,7 @@ def solution(order):
             j += 1
             i += 1
             
-            if i == len(order): # order 길이가
+            if i == len(order): 
                 return answer
             
         else:

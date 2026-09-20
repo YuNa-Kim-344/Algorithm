@@ -13,9 +13,9 @@ def solution(numbers):
         
         return True
     
-    made_num = set()
+    made_num = set() # 만든 숫자
     
-    def bfs(N, numbers):
+    def bfs(N, numbers): # 붙일 숫자, 사용 안한 숫자
         
         for i in range(len(numbers)):
             new_num = N + numbers[i]
